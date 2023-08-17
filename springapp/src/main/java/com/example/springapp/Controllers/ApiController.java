@@ -8,5 +8,9 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/welcome")
 public class ApiController {
-    
+    @GetMapping("/welcome")
+    public String getWelcomeMessage()
+	{
+			return "Welcome ";
+	}
 }
