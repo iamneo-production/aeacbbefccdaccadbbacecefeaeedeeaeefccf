@@ -1,4 +1,4 @@
-package com.example.springapp.Controllers.ApiController;
+package com.example.springapp.ApiController;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
